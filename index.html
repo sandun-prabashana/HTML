@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="normalize.css" rel="stylesheet">
+    <title>CSS</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            position: relative;
+        }
+        body section:nth-child(1){
+            width: 50%;
+            height: 50%;
+            background-color: red;
+            position: relative;
+            margin-bottom: 0px;
+            margin-top: 0px;
+
+        }
+        body h2{
+            width: 50%;
+            height: 50%;
+            background-color: orangered;
+            position: relative;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+
+        }
+        body section:nth-child(3){
+            width: 50%;
+            height: 50%;
+            background-color: green;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+        }
+        body section:nth-child(4){
+            width: 50%;
+            height: 50%;
+            background-color: #ff008a;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+        body h5{
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+
+        }
+        body h6{
+            height: 75px;
+            width: 75px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        body>section:nth-child(1)>h1{
+            height: 150px;
+            width: 150px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        body>section:nth-child(1)>h1>h7{
+            height: 75px;
+            width: 75px;
+            background-color: red;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        body>section:nth-child(3)>h3{
+            height: 150px;
+            width: 150px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        body>section:nth-child(3)>h3>h8{
+            height: 75px;
+            width: 75px;
+            background-color: red;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        body>section:nth-child(4)>h4{
+            height: 150px;
+            width: 150px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        body>section:nth-child(4)>h4>h9{
+            height: 75px;
+            width: 75px;
+            background-color: red;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        body>h2>h10{
+            height: 150px;
+            width: 150px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        body>h2>h10>h11{
+            height: 75px;
+            width: 75px;
+            background-color: red;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        body>h12{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            height: 75px;
+            width: 150px;
+            background-color:white;
+            border-radius: 180px 180px 0 0;
+        }
+        body>h13{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            height: 75px;
+            width: 150px;
+            background-color:white;
+            border-radius: 0 0 180px 180px;
+        }
+        body>section:nth-child(1)>div{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin-right: auto;
+            margin-bottom: auto;
+            height: 75px;
+            width: 75px;
+            background-color:white;
+            border-radius: 0 0 180px 0;
+        }
+        body>h2>div{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin-right: auto;
+            margin-top: auto;
+            height: 75px;
+            width: 75px;
+            background-color:white;
+            border-radius: 0 180px 0 0;
+        }
+        body>section:nth-child(3)>div{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin-left: auto;
+            margin-bottom: auto;
+            height: 75px;
+            width: 75px;
+            background-color:white;
+            border-radius: 0 0 0 180px;
+        }
+        body>section:nth-child(4)>div{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin-left: auto;
+            margin-top: auto;
+            height: 75px;
+            width: 75px;
+            background-color:white;
+            border-radius: 180px 0 0 0;
+        }
+    </style>
+
+</head>
+<body>
+<section>
+    <h1>
+        <h7></h7>
+    </h1>
+    <div></div>
+</section>
+<h2>
+    <h10>
+        <h11></h11>
+    </h10>
+    <div></div>
+</h2>
+<section>
+    <h3>
+        <h8></h8>
+    </h3>
+    <div></div>
+</section>
+<section>
+    <h4>
+        <h9></h9>
+    </h4>
+    <div></div>
+</section>
+<h5></h5>
+<h6></h6>
+<h12></h12>
+<h13></h13>
+</body>
+</html>
